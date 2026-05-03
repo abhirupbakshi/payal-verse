@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Slider with Header & Footer</title>
+    <link rel='stylesheet' href='https://cdn.rawgit.com/filipelinhares/ress/master/dist/ress.min.css'>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- Page Wrap -->
+    <div class="page-wrap">
+
+        <div id="home-slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper" id="swiper-wrapper">
+                    <!-- Header will be dynamically added as first slide -->
+                    <!-- Regular slides will be dynamically generated here -->
+                    <!-- Footer will be dynamically added as last slide -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Loading indicator -->
+    <div id="loading"
+        style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 18px; z-index: 1000;">
+        Loading...
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

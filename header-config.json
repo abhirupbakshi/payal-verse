@@ -1,0 +1,9 @@
+{
+    "header": {
+        "heading": "Welcome to <span class=\"emphasis\">PAYALVERSE</span>",
+        "subheading": "Discover things about one of the most amazing souls in this world",
+        "backgroundImage": "./media/image0.JPG",
+        "backgroundImageAlt": "./media/image0.JPG",
+        "mobileBackgroundImage": "./media/image0.JPG"
+    }
+}
